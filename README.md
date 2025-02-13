@@ -1,7 +1,3 @@
-# Re-run the code after environment reset
-
-# Create a README.md file with the provided content
-readme_content = """
 # Finance Manager
 
 Finance Manager is a Flask-based web application that helps users manage their finances by tracking income, expenses, and budgets. It provides a summary of total income, total expenses, net savings, and category-wise expenses. Additionally, it allows users to set budgets for various categories and alerts them when they exceed their budget limits.
