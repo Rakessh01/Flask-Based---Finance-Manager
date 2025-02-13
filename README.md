@@ -43,10 +43,3 @@ Feel free to fork the repository and submit pull requests for new features or bu
 ## License
 This project is open-source and available under the MIT License.
 """
-
-# Save the content as README.md
-file_path = '/mnt/data/README.md'
-with open(file_path, 'w') as file:
-    file.write(readme_content)
-
-file_path
