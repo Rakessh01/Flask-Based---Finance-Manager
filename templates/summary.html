@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    
+    <h2>Summary</h2>
+<p>Total Income: ${{ income }}</p>
+<p>Total Expenses: ${{ expenses }}</p>
+<p>Net Savings: ${{ income - expenses }}</p>
+<h3>Category-wise Expenses:</h3>
+<ul>
+    {% for category, amount in category_expense.items() %}
+    <li>{{ category }}: ${{ amount }}</li>
+    {% endfor %}
+</ul>
+<a href="{{ url_for('home') }}">Back to Home</a>
+
+</body>
+</html>

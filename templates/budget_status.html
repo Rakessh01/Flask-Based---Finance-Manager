@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+
+    <h2>Budget Status</h2>
+<h3>Exceeded Budgets:</h3>
+<ul>
+    {% for category, spent, limit in exceeded_budgets %}
+    <li>{{ category }} - Spent: ${{ spent }} | Limit: ${{ limit }}</li>
+    {% endfor %}
+</ul>
+<a href="{{ url_for('home') }}">Back to Home</a>
+
+</body>
+</html>
